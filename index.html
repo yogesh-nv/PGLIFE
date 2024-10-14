@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PG LIFE</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+	<link rel="stylesheet" href="/bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMTdGNTZZtnIBhLjxe0I6z4IX5ML5AdyxTNXTf3" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<div class="sticky-top">
+		<nav class="topnav">
+			<a href="index.html"><img src="/images/PG-life-logo.png" alt="logo" class="logo"></a>
+			<a href="login.html" class="login">
+				<span class="material-symbols-outlined">login</span> Login
+			</a>
+			<a href="signup.html" class="signup">
+				<span class="material-symbols-outlined">person</span> Signup
+			</a>
+		</nav>
+	</div>
+	<div class="banner-container">
+		<form action="search-form">
+			<div class="input-search">
+				<input type="text" class="form-control" name="city" id="city"
+					placeholder="Enter your city to search PGs">
+				<button type="submit" class="btn btn-secondary">
+					<span class="material-symbols-outlined">
+						search
+					</span>
+				</button>
+			</div>
+		</form>
+	</div>
+	<div class="page-container">
+		<h1 class="city-heading">Major Cities</h1>
+		<div class="row">
+			<div class="city-card-container col-md">
+				<a href="property-list.html">
+					<div class="city-card rounded-circle">
+						<img src="images/icon/bangalore.png" class="city-image" alt="bangalore-icon">
+					</div>
+				</a>
+			</div>
+			<div class="city-card-container col-md">
+				<a href="property-list.html">
+					<div class="city-card rounded-circle">
+						<img src="images/icon/hyderabad.png" class="city-image" alt="hyderbad-icon">
+					</div>
+				</a>
+			</div>
+			<div class="city-card-container col-md">
+				<a href="property-list.html">
+					<div class="city-card rounded-circle">
+						<img src="images/icon/delhi.png" class="city-image" alt="delhi-logo">
+					</div>
+				</a>
+			</div>
+			<div class="city-card-container col-md">
+				<a href="property-list.html">
+					<div class="city-card rounded-circle">
+						<img src="images/icon/chennai.png" class="city-image" alt="chennai-icon">
+					</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
+	<div class="footer">
+		<div class="page-container footer-container">
+			<div class="footer-cities">
+				<div class="footer-city"><a href="property-list.html">PG in Bangalore</a></div>
+				<div class="footer-city"><a href="property-list.html">PG in Hyderabad</a></div>
+				<div class="footer-city"><a href="property-list.html">PG in Delhi</a></div>
+				<div class="footer-city"><a href="property-list.html">PG in Chennai</a></div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

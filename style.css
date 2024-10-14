@@ -1,0 +1,130 @@
+*{
+	box-sizing: border-box;
+}
+body {
+    color: #373737;
+    font-size: 16px;
+    position: relative;
+}
+/* navbar style */
+.topnav{
+	background-color: white;
+	overflow:hidden;
+	
+}
+.logo{
+	float:left;
+	height: 50px;
+}
+.topnav a.signup, a.login{
+	float: right;
+	padding: 14px 16px;
+	text-decoration: none;
+	color:rgb(64, 59, 59);
+
+}
+.topnav a.signup:hover, a.login:hover{
+	background-color: #cec7c7;
+	color: black;
+}
+
+
+.material-symbols-outlined{
+	line-height: 1;
+	vertical-align: middle; /* to align icon and text in a line*/
+	font-size: 20px;
+}
+.sticky-top{
+	position: sticky;
+	top: 0;
+}
+/* banner container  */
+.banner-container{
+	background-image: url(/images/page-container-5.jpeg);
+	background-attachment: fixed;
+	box-shadow: inset 0 0 0 2000px #1c1c1c7a;
+	background-position: center -250px;
+	padding: 260px 150px;
+}
+.input-search {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+	flex-direction:row ;
+    align-items: stretch;
+	justify-content: center;
+    width: 50%;
+	margin:0 auto;
+	
+}
+.input-search>.form-control{
+	position: relative;
+	flex:1 1 auto;
+	width: 1%;
+	margin-bottom: 0;
+	padding: 8px;
+	font-size:16px;
+	letter-spacing: 2px;
+	opacity: 0.8;
+	text-indent: 2px;
+}
+/* page container */
+.page-container{
+	max-width: 800px;
+	padding: 80px 24px;
+	margin:auto;
+}
+.city-heading{
+	text-align: center;
+	padding-bottom: 50px;
+}
+h1{
+	font-size: 36px;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.city-card-container{
+	text-align:center;
+	margin-top:20px;
+}
+.city-image{
+	height:100px;
+	width:100px;
+}
+.city-card{
+	background-color: #ffffff;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    display: inline-block;
+    padding: 20px;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+/* Footer */
+.footer{
+	background-color: #333333;
+	font-size: 13px;
+}
+.footer-cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer-container {
+    padding: 24px;
+}
+
+.footer-city {
+    margin-bottom: 8px;
+    text-align: center;
+}
+.footer-city a {
+    color: #ffffff;
+	text-decoration: none;
+}
